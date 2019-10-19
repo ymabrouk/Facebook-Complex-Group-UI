@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:FacebookGroup.xcodeproj">
+      location = "self:/Users/yasser/Desktop/FacebookGroup/FacebookApp.xcodeproj">
    </FileRef>
 </Workspace>

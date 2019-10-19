@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3BCC5E892357DAB00062659B /* FacebookGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BCC5E892357DAB00062659B /* FacebookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BCC5E8C2357DAB00062659B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BCC5E8E2357DAB00062659B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3BCC5E902357DAB00062659B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		3BCC5E952357DAB20062659B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BCC5E982357DAB20062659B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BCC5E9A2357DAB20062659B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BCC5E9F2357DAB20062659B /* FacebookGroupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookGroupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BCC5E9F2357DAB20062659B /* FacebookAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BCC5EA32357DAB20062659B /* FacebookGroupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookGroupTests.swift; sourceTree = "<group>"; };
 		3BCC5EA52357DAB20062659B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BCC5EAA2357DAB20062659B /* FacebookGroupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookGroupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BCC5EAA2357DAB20062659B /* FacebookAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BCC5EAE2357DAB20062659B /* FacebookGroupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookGroupUITests.swift; sourceTree = "<group>"; };
 		3BCC5EB02357DAB20062659B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		3BCC5E8A2357DAB00062659B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BCC5E892357DAB00062659B /* FacebookGroup.app */,
-				3BCC5E9F2357DAB20062659B /* FacebookGroupTests.xctest */,
-				3BCC5EAA2357DAB20062659B /* FacebookGroupUITests.xctest */,
+				3BCC5E892357DAB00062659B /* FacebookApp.app */,
+				3BCC5E9F2357DAB20062659B /* FacebookAppTests.xctest */,
+				3BCC5EAA2357DAB20062659B /* FacebookAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BCC5E882357DAB00062659B /* FacebookGroup */ = {
+		3BCC5E882357DAB00062659B /* FacebookApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BCC5EB32357DAB20062659B /* Build configuration list for PBXNativeTarget "FacebookGroup" */;
+			buildConfigurationList = 3BCC5EB32357DAB20062659B /* Build configuration list for PBXNativeTarget "FacebookApp" */;
 			buildPhases = (
 				3BCC5E852357DAB00062659B /* Sources */,
 				3BCC5E862357DAB00062659B /* Frameworks */,
@@ -151,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = FacebookGroup;
+			name = FacebookApp;
 			productName = FacebookGroup;
-			productReference = 3BCC5E892357DAB00062659B /* FacebookGroup.app */;
+			productReference = 3BCC5E892357DAB00062659B /* FacebookApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3BCC5E9E2357DAB20062659B /* FacebookGroupTests */ = {
+		3BCC5E9E2357DAB20062659B /* FacebookAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BCC5EB62357DAB20062659B /* Build configuration list for PBXNativeTarget "FacebookGroupTests" */;
+			buildConfigurationList = 3BCC5EB62357DAB20062659B /* Build configuration list for PBXNativeTarget "FacebookAppTests" */;
 			buildPhases = (
 				3BCC5E9B2357DAB20062659B /* Sources */,
 				3BCC5E9C2357DAB20062659B /* Frameworks */,
@@ -169,14 +169,14 @@
 			dependencies = (
 				3BCC5EA12357DAB20062659B /* PBXTargetDependency */,
 			);
-			name = FacebookGroupTests;
+			name = FacebookAppTests;
 			productName = FacebookGroupTests;
-			productReference = 3BCC5E9F2357DAB20062659B /* FacebookGroupTests.xctest */;
+			productReference = 3BCC5E9F2357DAB20062659B /* FacebookAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3BCC5EA92357DAB20062659B /* FacebookGroupUITests */ = {
+		3BCC5EA92357DAB20062659B /* FacebookAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BCC5EB92357DAB20062659B /* Build configuration list for PBXNativeTarget "FacebookGroupUITests" */;
+			buildConfigurationList = 3BCC5EB92357DAB20062659B /* Build configuration list for PBXNativeTarget "FacebookAppUITests" */;
 			buildPhases = (
 				3BCC5EA62357DAB20062659B /* Sources */,
 				3BCC5EA72357DAB20062659B /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				3BCC5EAC2357DAB20062659B /* PBXTargetDependency */,
 			);
-			name = FacebookGroupUITests;
+			name = FacebookAppUITests;
 			productName = FacebookGroupUITests;
-			productReference = 3BCC5EAA2357DAB20062659B /* FacebookGroupUITests.xctest */;
+			productReference = 3BCC5EAA2357DAB20062659B /* FacebookAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3BCC5E842357DAB00062659B /* Build configuration list for PBXProject "FacebookGroup" */;
+			buildConfigurationList = 3BCC5E842357DAB00062659B /* Build configuration list for PBXProject "FacebookApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +228,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BCC5E882357DAB00062659B /* FacebookGroup */,
-				3BCC5E9E2357DAB20062659B /* FacebookGroupTests */,
-				3BCC5EA92357DAB20062659B /* FacebookGroupUITests */,
+				3BCC5E882357DAB00062659B /* FacebookApp */,
+				3BCC5E9E2357DAB20062659B /* FacebookAppTests */,
+				3BCC5EA92357DAB20062659B /* FacebookAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -294,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		3BCC5EA12357DAB20062659B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3BCC5E882357DAB00062659B /* FacebookGroup */;
+			target = 3BCC5E882357DAB00062659B /* FacebookApp */;
 			targetProxy = 3BCC5EA02357DAB20062659B /* PBXContainerItemProxy */;
 		};
 		3BCC5EAC2357DAB20062659B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3BCC5E882357DAB00062659B /* FacebookGroup */;
+			target = 3BCC5E882357DAB00062659B /* FacebookApp */;
 			targetProxy = 3BCC5EAB2357DAB20062659B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,7 +485,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookGroup.app/FacebookGroup";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookApp.app/FacebookApp";
 			};
 			name = Debug;
 		};
@@ -506,7 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookGroup.app/FacebookGroup";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookApp.app/FacebookApp";
 			};
 			name = Release;
 		};
@@ -551,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BCC5E842357DAB00062659B /* Build configuration list for PBXProject "FacebookGroup" */ = {
+		3BCC5E842357DAB00062659B /* Build configuration list for PBXProject "FacebookApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BCC5EB12357DAB20062659B /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BCC5EB32357DAB20062659B /* Build configuration list for PBXNativeTarget "FacebookGroup" */ = {
+		3BCC5EB32357DAB20062659B /* Build configuration list for PBXNativeTarget "FacebookApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BCC5EB42357DAB20062659B /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BCC5EB62357DAB20062659B /* Build configuration list for PBXNativeTarget "FacebookGroupTests" */ = {
+		3BCC5EB62357DAB20062659B /* Build configuration list for PBXNativeTarget "FacebookAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BCC5EB72357DAB20062659B /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BCC5EB92357DAB20062659B /* Build configuration list for PBXNativeTarget "FacebookGroupUITests" */ = {
+		3BCC5EB92357DAB20062659B /* Build configuration list for PBXNativeTarget "FacebookAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BCC5EBA2357DAB20062659B /* Debug */,
